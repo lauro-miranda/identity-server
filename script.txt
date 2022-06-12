@@ -1,0 +1,6 @@
+insert into `identity-server`.Client values (1, uuid(), current_timestamp(), current_timestamp(), null, 'ClientName', 'A222F722-8E72-447C-82F8-380BEEFE6E9F');
+insert into `identity-server`.Scope values (1, uuid(), current_timestamp(), current_timestamp(), null, 'ScopeName');
+insert into `identity-server`.ClientScope values (1, uuid(), current_timestamp(), current_timestamp(), null, 1, 1);
+
+insert into `identity-server`.Resource values (1, uuid(), current_timestamp(), current_timestamp(), null, 'ScopeName', 'Description');
+insert into `identity-server`.ScopeResource values (1, uuid(), current_timestamp(), current_timestamp(), null, 1, 1);
