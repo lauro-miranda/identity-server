@@ -8,11 +8,12 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{98C3B40E-DF74-47BC-8B85-3C753C05EFA0}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
+		script.txt = script.txt
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Messages", "Messages", "{E540C664-013B-4045-B885-4E5807363928}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServer.Messages", "IdentityServer.Messages\IdentityServer.Messages.csproj", "{685CAE2A-588E-447E-89D3-8CA307669E94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer.Messages", "IdentityServer.Messages\IdentityServer.Messages.csproj", "{685CAE2A-588E-447E-89D3-8CA307669E94}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
